@@ -27,12 +27,15 @@
 }
 
 header {
-    background-color: rgb(107, 124, 138);
+    background-color: hsla(0, 0%, 45%, 0.6);
 }
 
-html {
-    background-color: rgb(107, 124, 138);
-    color: rgb(36, 36, 36);
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    background-image: url("imagen\ 6.jpg");
+    background-repeat: repeat-y;
+    background: size cover;
 }
 
 h1.titulo1 {
@@ -44,14 +47,45 @@ h2.titulo2 {
 }
 
 nav.lista1 {
-background-color: rgb(107, 124, 138);
+background-color: hsla(0, 0%, 45%, 0.6);
 }
 
 div.parra1 {
-    background-color: rgb(107, 124, 138);
+    background-color: hsla(0, 0%, 45%, 0.6);
+    position: absolute;
+    width: 250px;
+}
+div.parra2 {
+    background-color: hsla(0, 0%, 45%, 0.6);
+    position: absolute;
+    width: 770px;
+    margin-left: 280px;
+}
+
+div.parra3 {
+    background-color: hsla(0, 0%, 45%, 0.6);
+    position: absolute;
+    width: 250px;
+    margin-left: 1075px;
+}
+
+div.section1 {
+    padding-top: 900px;
 }
 
 section.imagenes {
-    background-color: rgb(107, 124, 138);
+    background-color: hsla(0, 0%, 45%, 0.6);
 }
+
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
    
